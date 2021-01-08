@@ -40,8 +40,9 @@ const Cta = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
     split && 'cta-split'
-  );  
+  );
 
+  return null;
   return (
     <section
       {...props}

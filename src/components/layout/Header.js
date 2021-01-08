@@ -44,7 +44,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +66,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -111,18 +111,18 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
+                    {/* <li>
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li>
+                    </li> */}
                   </ul>
-                  {!hideSignin &&
+                  {/* {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
                         <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
                       </li>
-                    </ul>}
+                    </ul>} */}
                 </div>
               </nav>
             </>}

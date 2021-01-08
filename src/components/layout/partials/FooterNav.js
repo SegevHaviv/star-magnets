@@ -12,6 +12,7 @@ const FooterNav = ({
     className
   );
 
+  return null;
   return (
     <nav
       {...props}
