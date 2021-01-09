@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Put a title here - h1',
-    paragraph: 'Aviv - put a short paragraph here - p2'
+    title: '',
+    paragraph: ''
   };
 
   return (
@@ -72,11 +72,8 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Something you offer one
+                  GUESTS PICK THEIR PHOTO MAGNETS (FOR FREE) TO TAKE HOME AND DISPLAY
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
                 </div>
               </div>
             </div>
@@ -94,11 +91,8 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Something you offer two
+                  PHOTO MAGNETS ARE DISPLAYED ON THE MAGNETIC BOARD
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
                 </div>
               </div>
             </div>
@@ -116,11 +110,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Something you offer three
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  OUR EVENT MANAGER INSTANTLY CREATES THE PHOTO MAGNETS ON-SITE WITHIN MINUTES </h4>
                 </div>
               </div>
             </div>
@@ -138,11 +128,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Something you offer four
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  OUR EXPERT PHOTOGRAPHER WALKS AROUND TAKING PHOTOS OF EVERYONE HAVING A GOOD TIME AT YOUR EVENT</h4>
                 </div>
               </div>
             </div>
